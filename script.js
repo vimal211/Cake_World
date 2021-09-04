@@ -125,6 +125,9 @@ document.getElementById("buyBtn").onclick = function () {
     flavour.strawberry
   ) {
     document.getElementById("candle").style.display = "inherit";
+    setTimeout(function(){window.alert("Enjoy your PARTY!!!!!");},1000)
+    setTimeout(function(){location.reload();},2000)
+    
   }
 };
 
