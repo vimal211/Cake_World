@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cake World</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <div>
+          <img src="./assets/cake.png" alt="" srcset="" />
+          <p>Cake World</p>
+        </div>
+      </div>
+
+      <div class="middle">
+        <div>
+          <img src="./assets/list_template.png" alt="" srcset="" />
+          <div class="menu">
+            <span>PRICES</span>
+            <p>Chocolate...............300</p>
+            <p>Strawbwerry.........100</p>
+            <p>Butterscotch.........200</p>
+            <p>Vanilla......................250</p>
+            <p>Redvelvet..............350</p>
+          </div>
+        </div>
+
+        <div class="cake">
+          <img id="candle" src="./assets/candle.png" alt="" srcset="" />
+          <div class="flavour redvel" id="layer5"></div>
+          <div class="flavour vanilla" id="layer4"></div>
+          <div class="flavour butter" id="layer3"></div>
+          <div class="flavour straw" id="layer2"></div>
+          <div class="flavour choco" id="layer1"></div>
+        </div>
+
+        <div class="right">
+          <img src="./assets/list_template.png" alt="" srcset="" />
+          <div class="bill_board">
+            <span>Bill</span>
+            <div class="bill" id="chocolateBill"></div>
+            <div class="bill" id="strawberryBill"></div>
+            <div class="bill" id="butterscotchBill"></div>
+            <div class="bill" id="vanillaBill"></div>
+            <div class="bill" id="redvelvetBill"></div>
+            <div id="total"></div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <p id="chocolateBtn">Chocolate</p>
+        <p id="strawberryBtn">Strawberry</p>
+        <p id="butterscotchBtn">Butterscotch</p>
+        <p id="vanillaBtn">Vanilla</p>
+        <p id="redvelvetBtn">Redvelvet</p>
+        <p id="buyBtn">BUY</p>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
 </html>

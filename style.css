@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.top {
+  height: 15vh;
+  background-color: rgb(233, 134, 5);
+}
+
+.top div {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  color: rgb(46, 2, 8);
+  right: 40%;
+  background-color: rgb(136, 134, 240);
+  border: 5px solid burlywood;
+  border-radius: 50%;
+  width: 270px;
+  height: 170px;
+  padding: 10px;
+}
+
+.top div p {
+  font-size: 23px;
+  margin-top: -20px;
+  letter-spacing: 2px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+  text-shadow: 0px 3px 5px rgb(145, 133, 133);
+}
+
+.middle {
+  height: 70vh;
+  background-color: rgb(219, 150, 162);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 35px;
+  align-items: center;
+}
+
+.middle div:first-child {
+  position: relative;
+}
+
+.right {
+  position: relative;
+}
+
+.middle img {
+  height: 340px;
+  width: 300px;
+}
+
+.menu {
+  text-align: center;
+  font-size: larger;
+  position: absolute;
+  color: rgb(23, 32, 18);
+  top: 40px;
+  left: 65px;
+}
+
+.bill_board {
+  text-align: center;
+  font-size: larger;
+  position: absolute;
+  color: rgb(23, 32, 18);
+  top: 40px;
+  right: 65px;
+}
+
+.bill {
+  font-weight: bolder;
+  padding: 5px 0;
+}
+.bill_board span {
+  font-size: 30px;
+  font-weight: 1000;
+}
+
+.bill_board div {
+  color: rgb(5, 5, 5);
+}
+.bill_board div:last-child {
+  color: white;
+  border-radius: 10px;
+}
+
+.menu p {
+  font-weight: bolder;
+  padding: 5px 0;
+  color: rgb(0, 0, 0);
+}
+.menu span {
+  font-size: 30px;
+  font-weight: 1000;
+}
+
+.flavour {
+  height: 40px;
+  border-radius: 10px 10px 0 0;
+  z-index: 1;
+}
+
+.cake {
+  display: flex;
+  margin-bottom: -80px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#candle {
+  width: 50px;
+  height: 50px;
+  display: none;
+  z-index: 1;
+  margin-bottom: -10px;
+}
+
+#layer1 {
+  width: 245px;
+  display: none;
+}
+
+#layer2 {
+  width: 200px;
+  left: 40px;
+  display: none;
+}
+
+#layer3 {
+  width: 160px;
+  left: 60px;
+  display: none;
+}
+
+#layer4 {
+  width: 120px;
+  left: 80px;
+  display: none;
+}
+
+#layer5 {
+  width: 80px;
+  left: 100px;
+  display: none;
+}
+
+.choco {
+  background: brown;
+}
+
+.straw {
+  background: rgb(247, 34, 69);
+}
+
+.butter {
+  background: rgb(255, 204, 127);
+}
+
+.vanilla {
+  background: wheat;
+}
+
+.redvel {
+  background: red;
+}
+
+#total {
+  font-weight: 900;
+  font-size: larger;
+  padding: 5px 0;
+}
+
+.bottom {
+  height: 15vh;
+  background-color: rgb(233, 134, 5);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bottom p {
+  padding: 8px;
+  border-radius: 10px;
+  color: white;
+  background-color: blueviolet;
+  font-size: larger;
+  font-weight: 900;
+  letter-spacing: 3px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgb(121, 116, 116);
+}
+
+.bottom p:last-child {
+  background-color: rgb(72, 129, 15);
+  padding: 10px 15px;
+}
+
